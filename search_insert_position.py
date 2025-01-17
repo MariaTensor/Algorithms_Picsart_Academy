@@ -1,0 +1,5 @@
+def searchInsert(arr, target):
+    for i in range(len(arr)):
+        if arr[i] >= target:
+            return i
+    return i+1
